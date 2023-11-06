@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  cursor: default;
+  overflow: hidden;
+}
+
+.bar {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 50px;
+  margin: 10px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.bar div {
+  padding: 10px;
+  background: blue;
+  color: beige;
+  border-radius: 10px;
+  box-shadow: 0 0 10px blue;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.bar div:hover {
+  box-shadow: none;
+}
+
+.form_name {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn_enter_name {
+  padding: 10px;
+  background: blue;
+  width: 250px;
+  text-align: center;
+  color: beige;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn_enter_name:hover {
+  background: darkblue;
+}
+
+.input_name {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid blue;
+  box-shadow: 0 0 10px blue;
+  cursor: pointer;
+}
+
+.input_name:hover {
+  box-shadow: none;
+}
+
+.game_field {
+  width: 100%;
+  height: 100vh;
+  background: green;
+  box-shadow: 0 0 10px green;
+}
+
+.header {
+  padding: 10px;
+  background: black;
+  color: bisque;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: black;
+  color: beige;
+  padding: 10px;
+}
+
+.name {
+  position: fixed;
+  right: 20px;
+  cursor: pointer;
+  text-decoration: 2px underline blue;
+}
+
+.name:hover {
+  text-decoration: none;
+}
+
+.btn_game {
+  height: 98vh;
+  display: flex;
+}
+
+.margi_auto {
+  margin: auto;
+}
+
+.menu {
+  position: fixed;
+  right: 10px;
+  background: cadetblue;
+  padding: 10px;
+  top: 35px;
+}
+
+.tab {
+  padding: 10px;
+  background: aquamarine;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px;
+  cursor: pointer;
+}
+
+.tab:hover {
+  box-shadow: none;
+}
